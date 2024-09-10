@@ -14,7 +14,7 @@ outher:
 			}
 		}
 	}
-	return -1
+	return -2
 }
 
 // Algorítimo linear
