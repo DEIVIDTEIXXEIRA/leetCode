@@ -4,7 +4,7 @@ func main() {
 
 }
 
-// algorítimo quadratica
+// Algorítimo quadratica
 func FirstChar(s string) int {
 outher:
 	for i, r := range s {
@@ -17,7 +17,7 @@ outher:
 	return -1
 }
 
-// algorítimo linear
+// Algorítimo linear
 func FirstUniqChar(s string) int {
 	m := make(map[rune]int)
 
@@ -34,7 +34,7 @@ func FirstUniqChar(s string) int {
 	return -1
 }
 
-// algorítimo linear porém sem as constantes big(O)
+// Algorítimo linear porém sem as constantes big(O)
 func FirstUniqChar2(s string) int {
 	count := make([]int, 26)
 
